@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Greeting">
+   <children>
+      <AnchorPane prefHeight="137.0" prefWidth="343.0" style="-fx-background-color: #E9E9E9;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="14.0" layoutY="5.0">
+               <image>
+                  <Image url="@../image/bob.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="247.0" layoutY="39.0" text="Боб">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="215.0" layoutY="66.0" text="Твой виртуальный" textFill="#7c7979">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="79.0" text="помощник" textFill="#7c7979">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="121.0" prefHeight="364.0" prefWidth="343.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <TextField fx:id="fieldName" layoutX="74.0" layoutY="62.0" prefHeight="27.0" prefWidth="211.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="127.0" layoutY="31.0" text="Введите имя">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="checkBox" layoutX="89.0" layoutY="107.0" mnemonicParsing="false" stylesheets="@../css/style.css" />
+            <Label layoutX="117.0" layoutY="105.0" text="Я ознакомлен и согласен" textFill="#7c7979" />
+            <Label layoutX="122.0" layoutY="118.0" text="с политикой компании" textFill="#7c7979" />
+            <Label layoutX="153.0" layoutY="133.0" onMouseClicked="#information" text="Читать" textFill="#217ce5" />
+            <Button fx:id="buttonStart" layoutX="74.0" layoutY="166.0" mnemonicParsing="false" onMouseClicked="#start" prefHeight="46.0" prefWidth="211.0" style="-fx-background-color: #217CE5;" text="Начать" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Label fx:id="labelExit" layoutX="159.0" layoutY="228.0" onMouseClicked="#close" text="Выход" textFill="#217ce5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="329.0" text="QFlex developed." textFill="#7c7979">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
