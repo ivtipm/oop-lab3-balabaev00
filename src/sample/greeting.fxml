@@ -11,7 +11,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Greeting">
    <children>
-      <AnchorPane prefHeight="137.0" prefWidth="343.0" style="-fx-background-color: #E9E9E9;">
+      <AnchorPane prefHeight="137.0" prefWidth="343.0" style="-fx-background-color: #E9E9E9; -fx-border-color: #989898;">
          <children>
             <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="14.0" layoutY="5.0">
                <image>
@@ -35,7 +35,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane layoutY="121.0" prefHeight="364.0" prefWidth="343.0" style="-fx-background-color: #FFFFFF;">
+      <AnchorPane layoutY="121.0" prefHeight="364.0" prefWidth="343.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #989898;">
          <children>
             <TextField fx:id="fieldName" layoutX="74.0" layoutY="62.0" prefHeight="27.0" prefWidth="211.0">
                <font>

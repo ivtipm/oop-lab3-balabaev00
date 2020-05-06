@@ -11,7 +11,7 @@
 <AnchorPane fx:id="mainAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PrimaryWindow">
    <children>
       <AnchorPane prefHeight="484.0" prefWidth="343.0" />
-      <AnchorPane prefHeight="484.0" prefWidth="343.0" style="-fx-background-color: #FFFFFF;">
+      <AnchorPane prefHeight="484.0" prefWidth="343.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #989898;">
          <children>
             <TextField fx:id="messageField" layoutX="15.0" layoutY="432.0" prefHeight="42.0" prefWidth="314.0" promptText="Задайте свой вопрос сюда ...">
                <font>
@@ -23,7 +23,7 @@
                   <Image url="@../image/sent.png" />
                </image>
             </ImageView>
-            <TextArea fx:id="textArea" editable="false" layoutY="36.0" prefHeight="374.0" prefWidth="343.0">
+            <TextArea fx:id="textArea" editable="false" layoutX="3.0" layoutY="36.0" prefHeight="374.0" prefWidth="337.0">
                <font>
                   <Font size="15.0" />
                </font>

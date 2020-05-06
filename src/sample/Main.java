@@ -12,12 +12,12 @@ import javafx.stage.StageStyle;
 public class Main extends Application {
 
     private static int width = 343;
-    private static int height = 484;
+    private static int height = 485;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("greeting.fxml"));
-        primaryStage.initStyle(StageStyle.UNDECORATED); // Убираем кнопки (Закрыть,свернуть и т.п)
+        primaryStage.initStyle(StageStyle.TRANSPARENT); // Убираем кнопки (Закрыть,свернуть и т.п)
         primaryStage.setTitle("Боб помощник");
         primaryStage.setScene(new Scene(root, width, height));
         Image applicationIcon = new Image(getClass().getResourceAsStream("/image/icon.png"));
