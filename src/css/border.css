@@ -1,0 +1,6 @@
+. border {
+-fx-border-color: black;
+-fx-border-insets: 100;
+-fx-border-width: 100;
+-fx-border-style: solid;
+}
